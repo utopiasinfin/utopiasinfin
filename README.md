@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @utopiasinfin
+- 👋 Hi, I’m @utopiasinfin - my real name is Wilson
 - 👀 I’m interested in learning programming, virtual machines, linux (ubuntu, Open Suse, Debian, Parrot OS), network and digital interface theory an practice
 - 🌱 I’m currently learning in germany a 2 years college of System integration informatics!
 - 💞️ I’m looking to collaborate on whatever brings my kwnoledge to the cup
