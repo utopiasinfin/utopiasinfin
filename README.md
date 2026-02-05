@@ -1,21 +1,38 @@
-- 👋 Hi, I’m @utopiasinfin - my real name is Wilson, and I am currently undergoing vocational training (Umschulung) as an IT Specialist in System Integration (Fachinformatiker für Systemintegration) in Berlin, Germany.
-- My studies focus on:
-    Computer networks (VLANs, subnetting, DHCP, DNS, firewalls)
-    System administration (Linux and Windows Server)
-    Virtualization technologies (QEMU/KVM)
-    Domain structures and Active Directory
-    Programming basics in Java (structured and object-oriented)
-    IT support and troubleshooting
-    Project-based learning and documentation (Berichtsheft)
-This training combines theoretical knowledge with hands-on practice in virtual environments and real-world IT scenarios. I am particularly interested in Linux systems, networking, and sustainable technology projects like Aguavida.
-- 👀 I’m interested in learning programming, virtual machines. i am a linux user on a daily basis, on dual boot ( Debian 13, Manjaro, Kubuntu and the beautiful Fedora). i also have installed debian 12 without GUI as a server in a old laptop, for practicing networking  and homelab, ssh, samba , etc.
-- - 🌱 I’m currently learning in germany a 2 years college of System integration informatics!
-- 💞️ I’m looking to collaborate on whatever brings my kwnoledge to the cup
-- 📫 How to reach me....e@mail!!
-- 😄 Pronouns: i speak German, English, Spanish as a mother tongue and Italian!
-- ⚡ Fun fact: Chess lover! chess.com username: utopiasinfin1
+Hi, I’m @utopiasinfin — my name is Wilson Escobar Rodríguez, based in Berlin, Germany.
 
-<!---
-utopiasinfin/utopiasinfin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I’m currently doing a vocational retraining program (Umschulung) to become an **IT Specialist in System Integration (Fachinformatiker für Systemintegration, IHK track)**. My goal is to grow step by step into real-world IT work: supporting users, administering systems, and building reliable network infrastructures.
+
+## What I’m focusing on (and practicing a lot)
+- **Networking fundamentals:** IPv4 subnetting, VLANs, routing/switching basics, DHCP, DNS, firewalls/NAT
+- **System administration:** Linux (Debian/Fedora) and Windows environments (Windows Server / AD fundamentals)
+- **Virtualization & labs:** QEMU/KVM, VirtualBox; learning the concepts behind enterprise virtualization
+- **IT support & troubleshooting:** structured problem analysis, documentation, and clean handovers
+- **Programming basics:** Java (structured + OOP) for learning logic and automation thinking
+- **Documentation:** project-based learning and Berichtsheft (clear, reproducible steps)
+
+## My hands-on setup (home lab)
+I’m a daily Linux user and run a multi-boot setup (**Debian 13, Manjaro, Kubuntu, Fedora**).  
+I also maintain a **Debian 12 headless server on an older laptop** for practicing real admin tasks (SSH, Samba, basic services, networking labs, etc.).  
+I learn best by building, breaking, and documenting.
+
+## Interests
+- Linux systems & server administration
+- Networking (especially “how things really work” in practice)
+- Virtual machines & lab environments
+- Sustainable tech projects (e.g., **Aguavida**: environmental monitoring + self-hosted infrastructure)
+- Long-term: security-minded system integration (clean configs, least privilege, good documentation)
+
+## Collaboration
+I’m happy to collaborate on beginner-friendly or practice-oriented projects around:
+- network labs / tooling
+- Linux administration scripts (small automation)
+- documentation-driven projects (step-by-step guides)
+- homelab / self-hosting setups
+
+## Languages
+Spanish (native), German, English, Italian
+
+## Contact
+📫 Reach me via email: **[your-email-here]**
+
+⚡ Fun fact: I love chess — chess.com: **utopiasinfin1**
