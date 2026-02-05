@@ -33,6 +33,6 @@ I’m happy to collaborate on beginner-friendly or practice-oriented projects ar
 Spanish (native), German, English, Italian
 
 ## Contact
-📫 Reach me via email: **[your-email-here]**
+📫 Reach me via email: **utopiasinfin@tutanota.com**
 
 ⚡ Fun fact: I love chess — chess.com: **utopiasinfin1**
