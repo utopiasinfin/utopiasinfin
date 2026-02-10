@@ -11,9 +11,10 @@ I’m currently doing a vocational retraining program (Umschulung) to become an 
 - **Documentation:** project-based learning and Berichtsheft (clear, reproducible steps)
 
 ## My hands-on setup (home lab)
-I’m a daily Linux user and run a multi-boot setup (**Debian 13, Manjaro, Kubuntu, Fedora**).  
+I’m a daily Linux user and run a multi-boot setup (**Debian 12,Debian 13, Manjaro, Ubuntu and the magnificient Fedora**).  
 I also maintain a **Debian 12 headless server on an older laptop** for practicing real admin tasks (SSH, Samba, basic services, networking labs, etc.).  
 I learn best by building, breaking, and documenting.
+The best feeling is to be running manjaro with I3 window manager in a Macbook Pro from the 2013, and works flawless!!!
 
 ## Interests
 - Linux systems & server administration
