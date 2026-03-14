@@ -21,6 +21,20 @@
 
 set -euo pipefail
 
+# Prevent running as root for safety
+if [ "${EUID:-$(id -u)}" -eq 0 ]; then
+    echo "[ERROR] Do not run this script as root. Use a normal user account."
+    exit 1
+fi
+
+# Check required commands
+_required_cmds=(hostname uname uptime date nproc df ip ss ps awk getent systemctl)
+for cmd in "${_required_cmds[@]}"; do
+    if ! command -v "$cmd" &>/dev/null; then
+        echo -e "${YELLOW}[WARN]${NC} Recommended command '$cmd' not found. Some features may be limited."
+    fi
+done
+
 # -----------------------------------------------------------------------------
 # Color codes for output formatting
 # -----------------------------------------------------------------------------
@@ -409,6 +423,12 @@ quick_actions() {
                 echo "    Temperature not available"
             fi
             ;;
+        0)
+            return
+            ;;
+        *)
+            log_error "Invalid quick-action option"
+            ;;
     esac
 
     echo ""
@@ -457,6 +477,7 @@ if [ "${1:-}" = "--help" ] || [ "${1:-}" = "-h" ]; then
     echo "  --network       Show network information"
     echo "  --services      Show service status"
     echo "  --security      Run security check"
+    echo "  --version       Show script version"
     echo "  --help, -h      Show this help"
     echo ""
     echo "Security Notes:"
@@ -475,5 +496,6 @@ case "${1:-menu}" in
     --network) network_info ;;
     --services) show_services ;;
     --security) security_check ;;
+    --version) echo "Home Lab Manager version 1.0" ;;
     *) main ;;
 esac
